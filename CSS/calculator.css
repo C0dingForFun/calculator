@@ -15,11 +15,11 @@ body{
 }
 
 .empty{
+    margin-left:30px;
     background-color: white;
     width:80%;
-    height:150px;
-    border-radius:40px;
-    margin:auto;
+    height:145px;
+    border-radius:10%;
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@ body{
 
 /* Using grid
 
-.grid{
+.container{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     width:600px;
