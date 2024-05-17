@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    width:400px;
+    width:27%;
     height:670px;
     border-radius:10%;
     background-image: url('./Jellyfish.jpg');
@@ -12,15 +12,19 @@ body{
     background-size: cover;
     background-attachment: fixed;
     margin:auto;
+    color: black;
 }
 
 .empty{
-    margin-left:30px;
+    margin-left:35px;
     background-color: white;
     width:80%;
     height:145px;
     border-radius:10%;
     cursor: pointer;
+    color:black;
+    text-align:right;
+    font-size:50px;
 }
 
 .things{
@@ -28,7 +32,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color:rgba(8, 152, 255, 0.7);
-    color:black;
     width:80px;
     height:90px;
     border-radius:50%;
@@ -38,6 +41,11 @@ body{
     margin-bottom: 2px;
     margin-left:20px;
     cursor: pointer;
+    transition: 1s;
+}
+
+.things:hover{
+    background-color:rgba(8, 152, 255);
 }
 
 .signs{
@@ -45,7 +53,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color:rgba(251, 8, 255, 0.7);
-    color:black;
     width:80px;
     height:90px;
     border-radius:50%;
@@ -55,6 +62,11 @@ body{
     margin-bottom: 10px;
     margin-left:10px;
     cursor: pointer;
+    transition: 1s;
+}
+
+.signs:hover{
+    background-color:rgba(251, 8, 255);
 }
 
 .cl{
@@ -65,7 +77,7 @@ body{
     display:flex;
     width:190px;
     height:90px;
-    background-color: rgba(8, 25, 255, 0.7);
+    background-color: rgba(8, 25, 255, 0.453);
     color:white;
     font-size: x-large;
     align-items: center;
@@ -76,6 +88,11 @@ body{
     position: relative;
     bottom:8px;
     cursor: pointer;
+    transition: 1s;
+}
+.zero:hover{
+    background-color: rgba(8, 25, 255);
+    box-shadow: rgba(8, 25, 255);
 }
 
 .bottom{
@@ -100,6 +117,10 @@ body{
     transition:1s;
 }
 
+.numbers:hover{
+    background-color: rgba(8, 25, 255);
+}
+
 /* Using grid
 
 .container{
@@ -115,4 +136,4 @@ input{
 
 #enter{
     grid-column:3/5;
-*/
+} */
